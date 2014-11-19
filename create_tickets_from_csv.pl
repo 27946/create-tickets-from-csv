@@ -1,6 +1,9 @@
 use REST::Client;
 use MIME::Base64;
-
+=begin
+This script makes use of Freshdesk's API http://freshdesk.com/api
+This perl script would read E-mails from a CSV file and raise tickets on behalf of the emails read from the CSV file.
+=cut
 
 $portal_url='';# yourdomain.freshdesk.com
 
